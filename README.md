@@ -6,7 +6,8 @@ This project transforms historical equity market data into analytical insights t
 Daily trading prices are converted into compounded financial returns and analyzed against volatility to understand how efficiently companies generated performance.
 The goal was to simulate a real-world analytics workflow — from raw data ingestion to executive-level dashboard storytelling.
 
-![Dashboard](powerbi/Company&RiskAnalysis.png)
+![Company & Risk Analysis](powerbi/Company&RiskAnalysis.png)
+![Market Story](powerbi/MarketStory.png)
 
 ## Business Questions
 How has the market performed over time?
@@ -16,17 +17,7 @@ Which stocks exhibited the highest volatility?
 Were higher returns associated with higher risk?
 
 ## Architecture
-Raw CSV Data
-      ↓
-Azure SQL Database
-      ↓
-Data Modeling (Fact + Dimension Tables)
-      ↓
-Metrics Layer (Daily Returns)
-      ↓
-Analytical Views
-      ↓
-Power BI Dashboard
+![Architecture](data/ArchitectureFlow.png)
 
 ## Data Modeling
 

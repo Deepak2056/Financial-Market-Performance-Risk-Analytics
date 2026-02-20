@@ -6,6 +6,8 @@ This project transforms historical equity market data into analytical insights t
 Daily trading prices are converted into compounded financial returns and analyzed against volatility to understand how efficiently companies generated performance.
 The goal was to simulate a real-world analytics workflow — from raw data ingestion to executive-level dashboard storytelling.
 
+![Dashboard](powerbi/Company&RiskAnalysis.png)
+
 ## Business Questions
 How has the market performed over time?
 When did major performance shifts occur?
